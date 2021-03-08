@@ -39,6 +39,9 @@ function load_mailbox(mailbox) {
     .then(emails => {
 
       console.log(emails);
+      
+      // emails.forEach(email => )
+
     })
     .catch(error => console.log(error));
 }
